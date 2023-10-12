@@ -55,8 +55,9 @@ function Cards() {
 
   return (
     <>
-      <h1>Current Score: {score}</h1>
+      <h1>Current Score: {score}/{seed.length}</h1>
       <h1>High Score: {highScore}</h1>
+      <p>Card memory game. Don't click the same card twice!</p>
       <div className="card-container">
         {character.map((char) => {
           return (
