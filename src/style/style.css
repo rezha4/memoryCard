@@ -10,3 +10,17 @@ div.card-container {
   margin: 1rem 2rem;
 }
 
+@media (max-width: 500px) {
+  div.card-container {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    margin: 1rem 2px;
+  }
+  img {
+    max-width: 95px;
+  }
+  p {
+    font-size: xx-small;
+  }
+}
